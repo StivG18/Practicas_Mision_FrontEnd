@@ -8,5 +8,6 @@
 
 ## **Modulo 2 - HTML**
 
-**Practica: PASTELERIA**
+***Practica:***
+- [PASTELERIA](./Modulo_2_HTML/README.md)
 
