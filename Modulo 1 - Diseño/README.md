@@ -1,4 +1,4 @@
-# PRACTICA ABOGABOT - MISION FRONTEND
+# PRACTICA ABOGABOT 
 
 ## **1. Toma de Requerimientos.**
 
