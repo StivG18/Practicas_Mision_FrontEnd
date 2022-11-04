@@ -3,7 +3,7 @@
 ## **Modulo 1 - Diseño y Estructura de ideas**
 
 ***Practica:***
-- [ABOGABOT](./Modulo1-Diseño/README.md)
+- [ABOGABOT](/README.md)
 
 
 ## **Modulo 2 - HTML**
