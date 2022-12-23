@@ -1,0 +1,296 @@
+:root {
+  --main-bg-color: #DB092B;
+  --secondary-bg-color: #f2f2f2;
+  --main-screen-bg-color: #6d7b6d;
+  --secondary-screen-bg-color: #9e9d9d;
+  --main-buttons-color: #585858;
+  --square-buttons-color: #7ca9f7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary-bg-color);
+}
+
+button {
+  margin-top: 10px;
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #fe0065;
+  border: 5px solid black;
+}
+
+.pokedex {
+  height: 342px;
+  width: 400px;
+  display: flex;
+  border-radius: 10px;
+}
+
+.pokedexIzquierda {
+  background-color: var(--main-bg-color);
+  box-sizing: border-box;
+  height: 100%;
+  width: 50%;
+  display: grid;
+  grid-template-rows: 23% 50% 27%;
+  border: solid black 3px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 7px;
+}
+
+.rojo {
+  background-color: #ff0000;
+}
+.amarillo {
+  background-color: #fecb65;
+}
+.verde {
+  background-color: #32cb65;
+}
+.azul {
+  background-color: #3298cb;
+}
+
+.azulClaro {
+  background-color: #85bdfe;
+}
+.rojoClaro {
+  background-color: #fe98cb;
+}
+.amarilloClaro {
+  background-color: #fefecb;
+}
+.verdeClaro {
+  background-color: #98fe00;
+}
+
+.contenedorLuces {
+  position: relative;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.left-svg {
+  position: absolute;
+  z-index: +5;
+}
+
+.lucesGrandes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  height: 60px;
+  width: 60px;
+  border: solid black;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.luzGrande {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: solid black;
+}
+
+.reflejoGrande {
+  height: 15px;
+  width: 15px;
+  position: relative;
+  top: 7px;
+  left: 10px;
+  border-radius: 50%;
+}
+
+.lucesPequenas {
+  margin-left: 15px;
+  margin-top: 10px;
+  width: 70px;
+  height: 100%;
+  display: flex;
+  align-self: start;
+  justify-content: space-around;
+}
+
+.luzPequena {
+  border: solid black;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+}
+.reflejoPequeno {
+  height: 5px;
+  width: 5px;
+  position: relative;
+  top: 3px;
+  left: 3px;
+  border-radius: 50%;
+}
+
+.pokedexPantalla {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+align-items: center;
+}
+
+.pantalla {
+  width: 150px;
+  height: 90%;
+  border: solid black;
+  border-radius: 0 0 0 17%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  grid-template-rows: 10% 72% 18%;
+  background-color: white;
+}
+
+#mainPantalla {
+  height: 70%;
+  width: 80%;
+  margin-top: 13px;
+  justify-self: center;
+  background-color: var(--main-screen-bg-color);
+  border: solid black 2px;
+  border-radius: 5%;
+  background-image: url(img/PokemonFondo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.infoPokemon {
+  text-align: center;
+  height: 15%;
+  width: 80%;
+}
+
+.pokedexTexto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nombre {
+  width: 80%;
+  font-size: 25px;
+  text-align: center;
+  border: solid black;
+  background-color: #32cb65;
+}
+
+/*PokedexDerecha*/
+
+#pokedexDerecha {
+  background-color: var(--main-bg-color);
+  box-sizing: border-box;
+  position: relative;
+  height: 100%;
+  width: 50%;
+  display: grid;
+  grid-template-rows: 24% repeat(4, 19%);
+  border-bottom: solid black 3px;
+  border-bottom-right-radius: 10px;
+}
+#pokedexDerecha::before {
+  content: '';
+  position: absolute;
+  left: -3px;
+  bottom: 0;
+  width: 100%;
+  height: 265px;
+  border-right: solid black 3px;
+  border-bottom-right-radius: 7px;
+}
+
+.pantallaDerecha {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pantallaD {
+  font-family: 'Press Start 2P', cursive;
+  margin-top: 20%;
+  width: 146px;
+  height: 100px;
+  background-color: var(--secondary-screen-bg-color);
+  border: solid black 2px;
+  border-radius: 4px;
+  font-size: 15px;
+  padding-left: 2px;
+  padding-right: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  padding-left: 8px;
+  line-height: 2;
+}
+
+.abilitiesPantalla {
+  text-align: center;
+}
+
+.statsContenedor {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.stat {
+  margin: 1px;
+  font-size: 10px;
+}
+
+.contenedorBotones {
+  justify-self: center;
+  margin-top: 20%;
+  width: 80%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.botonAzul {
+  width: 100%;
+  background-color: #3298cb;
+  border: 1px solid black;
+}
+
+.pantallaAbajo {
+  margin-top: 35%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pantallaPequena {
+  text-align: center;
+  width: 40%;
+  height: 25px;
+  background-color: #585858;
+  border: 2px solid black;
+  color: #ffff;
+}

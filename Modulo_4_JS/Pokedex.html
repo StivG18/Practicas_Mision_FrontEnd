@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+    <div class="pokedex">
+      <div class="pokedexIzquierda">
+        <div class="arribaIzquierda">
+          <svg height="100" width="225" class="left-svg">
+            <polyline
+              points="0,75 70,75 90,38 224,38"
+              style="fill: none; stroke: black; stroke-width: 3"
+            />
+          </svg>
+          <div class="contenedorLuces">
+            <div class="lucesGrandes">
+              <div class="luzGrande azul">
+                <div class="reflejoGrande azulClaro"></div>
+              </div>
+            </div>
+            <div class="lucesPequenas">
+              <div class="luzPequena rojo">
+                <div class="reflejoPequeno rojoClaro"></div>
+              </div>
+              <div class="luzPequena amarillo">
+                <div class="reflejoPequeno amarilloClaro"></div>
+              </div>
+              <div class="luzPequena verde">
+                <div class="reflejoPequeno verdeClaro"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pokedexPantalla">
+          <div class="pantalla">
+            <img id="mainPantalla" src="img/pokebola.png">
+            <div id="nomid" class="infoPokemon">25-Pikachu</div>
+          </div>
+        </div>
+
+        <div class="pokedexTexto">
+          <input type="text" id="pokeName" class="nombre" value="Pikachu"  placeholder="pikachu"/>
+        </div>
+      </div>
+
+      <div id="pokedexDerecha">
+        <div class="arribaDerecha">
+          <svg height="100%" width="100%">
+            <polyline
+              points="0,0 0,40 138,40 158,75 250,75 250,0 0,0"
+              style="fill: #f2f2f2; stroke: none; stroke-width: 3"
+            />
+            <polyline
+              points="0,40 138,40 158,75 250,75"
+              style="fill: none; stroke: black; stroke-width: 3"
+            />
+          </svg>
+        </div>
+
+        <div class="pantallaDerecha">
+          <div id="pantallaId" class="pantallaD">
+            <div id="abilitiesPantalla"></div>
+            <div class="statsContenedor">
+              <div id="pokeVida" class="stat"></div>
+              <div id="pokeAtaque" class="stat"></div>
+              <div id="pokeDefensa" class="stat"></div>
+              <div id="pokeAtaEspecial" class="stat"></div>
+              <div id="pokeDefEspecial" class="stat"></div>
+              <div id="pokeVelocidad" class="stat"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contenedorBotones">
+          <div class="botonAzul"></div>
+          <div class="botonAzul"></div>
+          <div class="botonAzul"></div>
+          <div class="botonAzul"></div>
+          <div class="botonAzul"></div>
+          <div class="botonAzul"></div>
+          <div class="botonAzul"></div>
+          <div class="botonAzul"></div>
+          <div class="botonAzul"></div>
+          <div class="botonAzul"></div>
+        </div>
+
+        <div class="pantallaAbajo">
+          <div id="dato1" class="pantallaPequena">electric</div>
+          <div id="dato2" class="pantallaPequena">Altura: 4</div>
+        </div>
+      </div>
+    </div>
+    <button onclick="fetchPokemon()">Buscar</button>
+</body>
+
+<footer>
+    <script src="js/main.js"></script>
+</footer>
+</html>
