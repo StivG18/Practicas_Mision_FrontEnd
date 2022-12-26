@@ -22,15 +22,22 @@ body {
   background-color: var(--secondary-bg-color);
 }
 
-button {
+.button_buscar {
   margin-top: 10px;
-  width: 200px;
+  width: 150px;
   height: 50px;
-  border-radius: 25px;
+  border-radius: 15px;
   font-size: 20px;
   font-weight: 600;
-  background-color: #fe0065;
-  border: 5px solid black;
+  color: #c7c7c7;
+  background-color: #d00628;
+  border: 2px solid black;
+}
+
+.button_buscar:hover{
+  border: 2px solid rgb(98, 97, 97);
+  color: #d7d5d5;
+  background-color: #ff002b;
 }
 
 .pokedex {
@@ -172,7 +179,7 @@ align-items: center;
   background-color: var(--main-screen-bg-color);
   border: solid black 2px;
   border-radius: 5%;
-  background-image: url(img/PokemonFondo.jpg);
+  background-image: url("../img/PokemonFondo.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -194,8 +201,13 @@ align-items: center;
   width: 80%;
   font-size: 25px;
   text-align: center;
+  color: #eaeaea;
   border: solid black;
-  background-color: #32cb65;
+  background-color: #1dc452;
+}
+
+.nombre::placeholder{
+  color: #c7c7c7;
 }
 
 /*PokedexDerecha*/
@@ -206,6 +218,7 @@ align-items: center;
   position: relative;
   height: 100%;
   width: 50%;
+  color: #eaeaea;
   display: grid;
   grid-template-rows: 24% repeat(4, 19%);
   border-bottom: solid black 3px;
