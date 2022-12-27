@@ -4,14 +4,27 @@
 
 ### **Descripcion de la soliitud**
 #### ****Usuario Solicitante****
-Para nosotros como empresa es muy importante llevar a cabo el siguiente proyecto con el fin de automatizar las demandas de nuestros clientes. De acuerdo con lo anterior requerimos de una página web la cual permita que nuestros clientes tengan una cuenta personal donde logren diligenciar la información de la solicitud de demanda en un formulario y que seguido del diligenciamiento este los dirija a realizar el pago de la solicitud. Del mismo modo el cliente debe de visualizar los procesos que tiene en el momento y revisar si tiene alguna actualización en alguno de sus procesos y que adicionalmente se le notifique vía correo electrónico. Al administrador que será el encargado de revisar los procesos le deben aparecer mensajes de los procesos nuevos, debe adicionar comentarios en los procesos que tiene en el momento y darles un estado. La página web de preferencia que sea funcional en escritorio y en dispositivos móviles. La tonalidad de colores de preferencia son azul marino y blanco, pero aceptamos propuestas.
+La empresa Abogados unidos S. A de C. V. quiere ofrecer sus servicios de manera digital a través de una plataforma en línea llamada "Abogabot". Esta plataforma incluirá un formulario para interactuar con los clientes y permitirá el pago por los servicios solicitados. Para acceder a la plataforma, los clientes necesitarán iniciar sesión y podrán ver el seguimiento de su solicitud desde su panel de usuario. Además, desde el panel de administración de la plataforma, se podrá capturar toda la información de las solicitudes realizadas, generar documentos prellenados con la información del formulario del cliente y descargar un documento en formato Word. Se podrá cambiar el estado de cada solicitud según su etapa de procesamiento y se podrán enviar comentarios o actualizaciones a los clientes por correo electrónico. También se incluirán estadísticas directas sobre el número de solicitudes, los pagos totales realizados, las solicitudes canceladas y las solicitudes en curso.
+
+Para satisfacer las tendencias actuales en cuanto a la utilización de dispositivos móviles, se considera importante que la plataforma sea responsive. La tipografía queda a disposición de los desarrolladores, pero se solicita que se mantengan nuestros colores corporativos (azul marino y blanco) en la plataforma. Sin embargo, estamos abiertos a considerar propuestas creativas antes del desarrollo del producto.
 
 
 #### ****Líder Funcional****
 
-La tarea que tenemos nosotros, es modelar una pagina web que nos permita manejar dos roles, uno como cliente y otro como administrador la cual este disponible en dispositivos de escritorio y móvil. Esta página les permitirá realizar a los clientes acciones de ingreso de nuevos procesos de demanda mediante un formulario el cual tendrá su debido proceso de pago y estos podrán revisar y llevar el seguimiento de los procesos que cree cada cliente. Adicional le permitirá al administrador visualizar los procesos nuevos que llegan mediante notificaciones, podrá agregar comentarios y darle un estado al proceso.
+- Es un despacho de abogados que quiere automatizar las demandas de sus clientes, esto lo harán a través de una página web llenando un formulario.
+- Al momento de llenar el formulario se manda al proceso de pago para finalizar la transacción.
+- Para dar seguimiento a su demanda, el cliente crea una cuenta en la plataforma y verá el seguimiento de cada una de las actualizaciones del proceso legal.
+- El administrador del sitio recibe la notificación de una nueva demanda y con los datos llenados del formulario se crea automáticamente el documento legal en formato Word para empezar el proceso.
+- El administrador recibe el pago y debe de ser capaz de verlo en un dashboard para ver la cantidad de ingresos recibidos.
+- El administrador actualiza el proceso de la demanda y agrega comentarios en cada paso del proceso.
+- Al usuario le llegan correos de notificación para saber el avance de su proceso.
+- La página debe de ser responsive para poderla ver desde el celular.
+- La preferencia de colores del cliente es azul marino y blanco, pero acepta propuestas.
 
-## **2. Diagrama y modelo de Negocio**
+
+## **2. Diagrama de la Pagina Web**
 
 ## **3. Buyer Persona**
 ![BuyerPersona](./images/BuyerPersona.jpg)
+## **3. Publico Objetivo**
+![Publico Objetivo](./images/)
