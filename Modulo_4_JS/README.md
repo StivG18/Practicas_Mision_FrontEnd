@@ -7,6 +7,3 @@ El consumo de la API de Pokémon implica enviar solicitudes a la API y recibir r
 
 ![funcionamiento_pokedex](./img/funcionamiento_pokedex.png)
 
-### **Sitio web en Productivo**
-
-![Sitio-web]()
