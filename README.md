@@ -3,20 +3,20 @@
 ## **Modulo 1 - Diseño y Estructura de ideas**
 
 ***Practica:***
-- [ABOGABOT](./Modulo_1_Diseño/README.md)
+- [ABOGABOT](./Modulo_1_Diseño)
 
 
 ## **Modulo 2 - HTML**
 
 ***Practica:***
-- [PASTELERIA](./Modulo_2_HTML/README.md)
+- [PASTELERIA](./Modulo_2_HTML)
 
 ## **Modulo 3 - CSS**
 
 ***Practica:***
-- [VACUNACIÓN](./Modulo_3_CSS/README.md)
+- [VACUNACIÓN](./Modulo_3_CSS)
 
 ## **Modulo 4 - JS**
 
 ***Practica:***
-- [POKEDEX](./Modulo_4_JS/README.md)
+- [POKEDEX](./Modulo_4_JS)
