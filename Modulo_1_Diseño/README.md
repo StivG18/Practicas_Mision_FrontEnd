@@ -23,7 +23,7 @@ Para satisfacer las tendencias actuales en cuanto a la utilización de dispositi
 
 
 ## **2. Diagrama de la Pagina Web**
-![Diagrama](./images/)
+![Diagrama](./images/diagrama.png)
 ## **3. Buyer Persona**
 ![BuyerPersona](./images/BuyerPersona.jpg)
 ## **3. Publico Objetivo**
